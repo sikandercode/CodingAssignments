@@ -1,12 +1,12 @@
-#include <iostream>
-#include <vector>
+#include <iostream.h>
+#include <vector.h>
 using std::vector;
 
 class Player
 {
   public:
-    Player(bool isCross)  { m_isCross = isCross; }
-    bool isCross() { return m_isCross; }
+    Player(bool isCross)  { m_isCross = isCross ;} 
+    bool isCross() { return m_isCross ;} 
 
 private:
     bool m_isCross;
